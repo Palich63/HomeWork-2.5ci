@@ -5,10 +5,10 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ CheckStyle ]
+    branches: [ master, CheckStyle, SpotBugs ]
 
   pull_request:
-    branches: [ CheckStyle ]
+    branches: [ master, CheckStyle, SpotBugs ]
 
 
 jobs:
